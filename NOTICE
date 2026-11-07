@@ -1,0 +1,27 @@
+Microfiche
+Copyright (C) 2026 cata02222
+
+This program is free software: you can redistribute it and/or modify it
+under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or (at your
+option) any later version.
+
+Original SillyTavern extension:
+https://github.com/cata02222/SillyTavern-Microfiche
+
+This repository is a Lumiverse Spindle port of that program. It is not
+published by the original author. The rendering, layout, exemption, and
+archive-planning files under vendor/microfiche/lib/ are copied from that
+project so the pages stay the same. The copied Spleen table stores empty
+bitmaps for Latin-1; src/latin1-glyphs.ts fills only those empty slots at
+runtime. The vendor font file is not modified.
+
+The Spleen 5×8 bitmap font is Copyright (c) 2018-2026 Frederic Cambus and
+is used under the BSD 2-Clause license in licenses/LICENSE-spleen.
+
+Emoji names come from Unicode Emoji data, Copyright © 1991-2026 Unicode,
+Inc., under the Unicode License in licenses/LICENSE-unicode.
+
+If you run a modified copy of this extension as a network service, the GNU
+Affero General Public License requires you to offer the corresponding
+source to the users of that service.

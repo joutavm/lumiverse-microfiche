@@ -1,0 +1,23 @@
+{
+  "version": "0.3.0",
+  "name": "Microfiche",
+  "identifier": "microfiche",
+  "author": "cata02222 (SillyTavern); Lumiverse Spindle port",
+  "github": "https://github.com/joutavm/lumiverse-microfiche",
+  "homepage": "https://github.com/joutavm/lumiverse-microfiche",
+  "description": "Sends older roleplay chat as Spleen bitmap pages so Gemini bills by image resolution instead of raw text tokens. Preset, card, persona, and lore stay text unless you opt in. AGPL port of SillyTavern-Microfiche.",
+  "permissions": [
+    "interceptor",
+    "chat_mutation"
+  ],
+  "entry_backend": "dist/backend.js",
+  "entry_frontend": "dist/frontend.js",
+  "interceptorTimeoutMs": 30000,
+  "storage_seed_files": [
+    {
+      "from": "defaults/settings.json",
+      "to": "settings.json",
+      "overwrite": false
+    }
+  ]
+}
